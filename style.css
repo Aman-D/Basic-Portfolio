@@ -1,0 +1,38 @@
+/*Color Pallete*/
+/* Color Theme Swatches in Hex */
+.4-Ruth-Ideas-1-1-hex { color: #FF8A47; }
+.4-Ruth-Ideas-1-2-hex { color: #FC6170; }
+.4-Ruth-Ideas-1-3-hex { color: #8CEEEE; }
+.4-Ruth-Ideas-1-4-hex { color: #26BFBF; }
+.4-Ruth-Ideas-1-5-hex { color: #FFD747; }
+
+/* Color Theme Swatches in RGBA */
+.4-Ruth-Ideas-1-1-rgba { color: rgba(255, 137, 70, 1); }
+.4-Ruth-Ideas-1-2-rgba { color: rgba(251, 96, 112, 1); }
+.4-Ruth-Ideas-1-3-rgba { color: rgba(140, 237, 237, 1); }
+.4-Ruth-Ideas-1-4-rgba { color: rgba(38, 191, 191, 1); }
+.4-Ruth-Ideas-1-5-rgba { color: rgba(255, 214, 70, 1); }
+
+/* Color Theme Swatches in HSLA */
+.4-Ruth-Ideas-1-1-hsla { color: hsla(21, 100, 63, 1); }/*orange*/
+.4-Ruth-Ideas-1-2-hsla { color: hsla(354, 96, 68, 1); }/*red*/
+.4-Ruth-Ideas-1-3-hsla { color: hsla(180, 74, 74, 1); }
+.4-Ruth-Ideas-1-4-hsla { color: hsla(180, 66, 44, 1); }/*blue*/
+.4-Ruth-Ideas-1-5-hsla { color: hsla(46, 100, 63, 1); }/**yellow*/
+
+
+body{
+	margin:0;
+	padding: 0;
+	overflow-x:hidden; 
+	
+}
+.sec{
+	box-sizing: border-box;
+	padding-left:2em; 
+	padding-right: 2em;
+}
+#container{
+	display: grid;
+	grid-template-rows: 79vh auto 120vh 100vh 100vh;
+}

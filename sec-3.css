@@ -1,0 +1,70 @@
+#sec-3{
+	box-sizing: border-box;
+	display: grid;
+	padding-top: 5em;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 20% repeat(2,1fr);
+	grid-template-areas:
+	"sec-3-head sec-3-head sec-3-head"
+	"HTML CSS JAVAST"
+	"BOOTST REACT ."; 
+	
+	place-items:center;
+	
+
+}
+#sec-3-head{
+	grid-area: sec-3-head;
+}
+#HTML{
+	grid-area: HTML;
+	position: relative;
+	z-index: 11;
+}
+#CSS{
+	grid-area: CSS;
+}
+#JAVAST{
+	grid-area: JAVAST;
+}
+#BOOTST{
+	grid-area: BOOTST;
+}
+#REACT{
+	grid-area: REACT;
+}
+
+#sec-3-head h1{
+	margin:0; 
+	font-size: 5em;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+.logo{
+	height: 200px;
+	width: 200px;
+}
+#my_canvas{
+	height: 100%;
+	width: 100%;
+	border:1px solid black;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.myBar-container{
+	width: 100%;
+	height: 20px;
+	background-color: #BABFBE;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 1px #F1F2F2;
+}
+
+.myBar{
+	width: 0;
+	height: 20px;
+	border-radius: 10px;
+	margin: 1em 0;
+	
+}

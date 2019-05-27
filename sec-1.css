@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Titillium+Web&display=swap');
+#sec-1{
+	height: 80vh;
+	padding:10px;
+ /*background-image: linear-gradient(to right bottom, #0961c5, #0b63d0, #1265dc, #1c67e7, #2769f2);    display: grid;
+	*/
+	background-color:#FC6170;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	
+	
+}
+#banner-left{
+	display: flex;
+	box-sizing:border-box;
+	height: 100%;
+	padding-bottom: 5em;
+	flex-wrap: nowrap;
+	flex-direction:column; 
+	justify-content: flex-end;
+	
+}
+#intro-content{
+	padding-bottom: 2em;
+	color: white;
+}
+#banner-left h1,p{
+	margin:0;
+	padding:0;
+	font-family: 'Merriweather', serif;
+}
+#intro-content h1{
+	font-size: 125px;
+	text-shadow: 2px 2px #545D6B;
+}
+#intro-content p{
+	font-size: 15px;
+	line-height: 1.5em;
+}
+#intro-button{
+	display: flex;
+	flex-direction: row;
+	align-self: start;
+}
+
+.btn{
+	margin-right: 20px;
+	height: 50px;
+	width: 125px;
+	font-family: 'Titillium Web', sans-serif;
+	border-radius: 10px;
+	z-index: 999;
+}
+.fas{
+	padding: 0 5px;
+}
+
+#banner-right{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#banner-right h1,h2,h3{
+	box-sizing: border-box;
+	margin:0;
+	justify-content: flex-end;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	padding-bottom: 1em;
+}
+#banner-right h1{
+	padding-top: 2em;
+}
+
+#profile-pic img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border:10px solid white;
+		
+}
+/* arrow on the bottom of the banner*/
+#sec-1::before{
+	content: '';
+	height: 70%;
+	width: 140%;
+	top: -125%;
+	left: -90%;
+    background-color:#FC6170;
+	position: absolute;
+	transform: skewY(45deg);
+	z-index: -1;
+	
+}
+#sec-1::after{
+	content: '';
+	height: 70%;
+	width: 140%;
+	top: -125%;
+	left: 50%;
+   background-color:#FC6170;
+	position: absolute;
+	transform: skewY(-45deg);
+	z-index: -1;
+	
+}
+

@@ -1,0 +1,65 @@
+#sec-4{
+	display: grid;
+	grid-template-rows: 30% 70%;
+	place-items:center;
+	
+}
+#sec-4-head{
+	margin:0; 
+	padding: 0;
+	font-size: 3em;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+#slider{
+	height: 100%;
+	width: 100%;
+	display: flex;	
+	background-color: #26BFBF;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 2px 2px grey;
+	margin-bottom: 50px;
+	position: relative;
+	pointer-events: none;
+	opacity: 0.5;
+}
+.card{
+	box-sizing: border-box;
+	height: 300px;
+	width: 100%;
+	background-color:white;
+	border-left:2px outset #F2F2F2;
+	border-right:2px outset #F2F2F2;
+	margin: 0 3px 0 3px;
+	padding:10px;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.card p{
+	text-align: center;
+	justify-content: justify;
+}
+.card h1{
+	margin:0; 
+	padding-top: 20px;
+	font-size: 2em;
+	font-family: 'Merriweather', serif;
+
+}
+#slider::before{
+	content: "\f1c9  Under Work";
+   	font-family:"Font Awesome 5 Free";
+   	font-size:100px;	
+   	text-align: center;
+	position: absolute;
+  	width: 100%;
+  	top: 6;
+  	left: 0;
+  	margin-left: -5px;
+
+}
